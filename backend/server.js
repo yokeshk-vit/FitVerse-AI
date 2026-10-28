@@ -32,7 +32,9 @@ const allowedOrigins = [
   "http://localhost:5175",
   "http://127.0.0.1:5173",
   "http://127.0.0.1:5174",
-  "http://127.0.0.1:5175"
+  "http://127.0.0.1:5175",
+  "https://fit-verse-ai.vercel.app",
+  "https://fit-verse-ai-git-main-yokeshk-vit.vercel.app"
 ];
 
 app.use(
@@ -209,3 +211,4 @@ async function startServer() {
 }
 
 startServer();
+
